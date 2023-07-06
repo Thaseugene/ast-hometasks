@@ -3,6 +3,10 @@ package com.task.project;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * Implementation of quick sort
+ * @author Eugene Budnichenko
+ */
 public class QuickSort<T> {
     private final List<T> list;
     private final Comparator<? super T> comparator;

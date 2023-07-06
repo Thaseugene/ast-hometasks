@@ -3,6 +3,10 @@ package com.task.project;
 import java.lang.reflect.Array;
 import java.util.*;
 
+/**
+ * Implementation of new type of ArrayList
+ * @author Eugene Budnichenko
+ */
 public class ModernArrayList<T> implements List<T> {
     private static final int DEFAULT_CAPACITY = 16;
     private T[] elements;

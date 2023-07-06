@@ -69,8 +69,6 @@ public class QuickSort<T> {
     }
 
     /**
-     * Swaps the elements at the given indices in the list.
-     *
      * @param i the index of the first element
      * @param j the index of the second element
      */
@@ -81,9 +79,6 @@ public class QuickSort<T> {
     }
 
     /**
-     * Compares two elements using the provided comparator or their natural ordering.
-     * If neither a comparator is provided nor the elements implement the Comparable interface,
-     * an UnsupportedOperationException is thrown.
      * @param a the first element to be compared
      * @param b the second element to be compared
      * @return a negative integer if a is less than b, zero if they are equal,

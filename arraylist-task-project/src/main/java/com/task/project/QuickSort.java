@@ -32,8 +32,6 @@ public class QuickSort<T> {
     }
 
     /**
-     * Recursively sorts the sublist from the given low index to the given high index.
-     *
      * @param low  the starting index of the sublist
      * @param high the ending index of the sublist
      */
@@ -46,9 +44,6 @@ public class QuickSort<T> {
     }
 
     /**
-     * Partitions the sublist from the given low index to the given high index
-     * by selecting a pivot element and rearranging the surrounding elements.
-     *
      * @param low  the starting index of the sublist
      * @param high the ending index of the sublist
      * @return the final index of the pivot element after partitioning
